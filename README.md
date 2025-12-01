@@ -1,51 +1,62 @@
-# Real-Time Location Tracking
+# 🚀 Real-Time Location Tracker
 
+![Preview](https://github.com/user-attachments/assets/51021220-d6c5-44fd-a08c-36061af891fe)
 
-![2024-07-15](https://github.com/user-attachments/assets/51021220-d6c5-44fd-a08c-36061af891fe)
+## 📌 Overview
 
+**Real-Time Location Tracker** is a web application designed to track and monitor locations dynamically.  
+It uses **WebSockets (Socket.IO)** to stream location updates instantly and displays users’ positions on a live interactive map.  
+All connected users can see everyone's location in real-time without refreshing the page.
 
-## Overview
+---
 
-Welcome to the **Real-Time Location Tracking** project! This web application is designed for real-time location tracking and monitoring. It utilizes WebSocket technology to provide real-time updates, displaying the location of tracked entities on a map. All connected users can view everyone's location on the map in real-time.
+## 🌟 Features
 
-## Features
+✔ Real-time location broadcasting using **Socket.IO**  
+✔ **Interactive map** using **Leaflet.js & OpenStreetMap**  
+✔ **Multi-user tracking** — every connected user visible live on the map  
+✔ Lightweight & fast **Node.js Express server**  
+✔ Supports both **web and mobile browser tracking**
 
-- **Real-time Location Updates**: Uses WebSocket technology for instant location updates.
-- **Interactive Map**: Displays locations on an interactive map using OpenStreetMap and Leaflet.js.
-- **Multi-user Support**: Multiple connected users can view locations simultaneously.
+---
 
-## Technologies Used
+## 🛠️ Tech Stack
 
-- **JavaScript**: The programming language used for both client-side and server-side logic.
-- **Node.js**: JavaScript runtime built on Chrome's V8 JavaScript engine.
-- **Express.js**: A fast, unopinionated, minimalist web framework for Node.js.
-- **Socket.IO**: Enables real-time, bidirectional communication between the server and clients.
-- **OpenStreetMap**: Provides the map data.
-- **Leaflet.js**: An open-source JavaScript library for mobile-friendly interactive maps.
+| Component | Technology |
+|----------|------------|
+| Frontend | HTML, CSS, JavaScript |
+| Backend | Node.js + Express.js |
+| Real-time Communication | Socket.IO |
+| Map | OpenStreetMap + Leaflet.js |
 
-## Installation
+---
 
-1. Clone the repository:
-    ```bash
-    git clone https://github.com/yourusername/realtime-location-tracker.git
-    ```
-2. Navigate to the project directory:
-    ```bash
-    cd realtime_location_tracker
-    ```
-3. Install the dependencies:
-    ```bash
-    npm install
-    ```
+## 🔧 Installation & Setup
 
-## Usage
+1️⃣ Clone the repository:
+```bash
+git clone https://github.com/dayanitha24/Location-Tracker.git
 
-1. Start the server:
-    ```bash
-    node app.js
-    ```
-2. Open your web browser and go to `http://localhost:3000` to view the application.
+2️⃣ Navigate to the project directory:
 
-## Demo
+cd Location-Tracker
 
-You can view a live demo of the project [here](https://realtime-location-trackernp.onrender.com/). *(Please note that it may take a few seconds for the server to wake up.)*
+3️⃣ Install project dependencies:
+
+npm install
+
+4️⃣ Start the server:
+
+node app.js
+
+5️⃣ Open your browser and navigate to:
+
+http://localhost:3000
+
+🎯 How It Works
+
+Clients send their live GPS coordinates via Socket.IO
+
+The server broadcasts updates to all connected users
+
+Leaflet.js updates each user's marker position instantly on the map
