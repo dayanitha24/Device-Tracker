@@ -1,7 +1,7 @@
 # 🚀 Real-Time Location Tracker
+![My Custom Image](https://github.com/dayanitha24/Location-Tracker/images/my_image.png?raw=true)
 
-![Preview](https://github.com/user-attachments/assets/51021220-d6c5-44fd-a08c-36061af891fe)
-
+Location-Tracker.git'
 ## 📌 Overview
 
 **Real-Time Location Tracker** is a web application designed to track and monitor locations dynamically.  
