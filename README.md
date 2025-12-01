@@ -1,5 +1,5 @@
 # 🚀 Real-Time Location Tracker
-![My Custom Image](https://github.com/dayanitha24/Location-Tracker/images/my_image.png?raw=true)
+
 
 Location-Tracker.git'
 ## 📌 Overview
@@ -36,23 +36,23 @@ All connected users can see everyone's location in real-time without refreshing 
 1️⃣ Clone the repository:
 ```bash
 git clone https://github.com/dayanitha24/Location-Tracker.git
-
+```
 2️⃣ Navigate to the project directory:
-
+``` bash
 cd Location-Tracker
-
+```
 3️⃣ Install project dependencies:
-
+``` bash
 npm install
-
+```
 4️⃣ Start the server:
-
+```bash
 node app.js
-
+```
 5️⃣ Open your browser and navigate to:
-
+``` bash
 http://localhost:3000
-
+```
 🎯 How It Works
 
 Clients send their live GPS coordinates via Socket.IO
